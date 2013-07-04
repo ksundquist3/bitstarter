@@ -1,8 +1,8 @@
 var express = require('express');
 var fs = require('fs');
-var buf = new Buffer(text);
 
 var text = fs.readFile('index.html');
+var buf = new Buffer(text);
 
 var app = express.createServer(express.logger());
 
